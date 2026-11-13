@@ -8,6 +8,9 @@ public class TokoBuku {
     }
 
     public static void main(String[] args) {
+        // Error saat new Buku("X", "Y", 1):
+        // java: Buku is abstract; cannot be instantiated
+
         BukuCetak cetak1 = new BukuCetak("Pemrograman Java", "John Doe", 120000, 750);
         BukuCetak cetak2 = new BukuCetak("Algoritma Dasar", "Jane Smith", 95000, 400);
         BukuDigital digital = new BukuDigital("Belajar OOP", "Ani Wijaya", 80000, 12.5);
